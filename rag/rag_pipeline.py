@@ -1,4 +1,4 @@
-from rag.retriver import retrieve_books
+from rag.retriever import retrieve_books
 from rag.generator import generate_recommendation
 
 def recommend_books(query):
