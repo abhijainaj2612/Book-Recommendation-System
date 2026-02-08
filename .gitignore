@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+chroma_db/
+store/chroma_db/
+*.sqlite3
+__pycache__/
+*.pyc
+.env
