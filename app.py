@@ -1,5 +1,5 @@
 import streamlit as st
-from code.rag_pipeline import recommend_books
+from rag.rag_pipeline import recommend_books
 
 st.set_page_config(
     page_title="📚 Book Recommender",

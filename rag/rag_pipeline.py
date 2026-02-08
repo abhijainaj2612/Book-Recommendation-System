@@ -1,5 +1,5 @@
-from .retriver import retrieve_books
-from .generator import generate_recommendation
+from rag.retriver import retrieve_books
+from rag.generator import generate_recommendation
 
 def recommend_books(query):
     documents, metadatas = retrieve_books(query)
